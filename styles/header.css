@@ -1,0 +1,17 @@
+#navbar-main {
+    background-color: black !important;
+}
+
+.navbar-brand,
+.btn-outline-success,
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-item {
+    margin-left: 1rem !important;
+}
+
+.navbar-nav {
+    margin-left: 25em !important;
+}
