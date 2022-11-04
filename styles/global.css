@@ -27,4 +27,25 @@ img {
     padding: .1rem;
 }
 
-.sub-title {}
+.fake {
+    background-color: rgba(87, 60, 2, 0.822);
+    margin-top: 1rem;
+    width: 100%;
+    height: 5rem;
+}
+
+.content-section {
+    margin-top: 3rem;
+}
+
+.history-link a {
+    color: rgba(68, 62, 62, 0.822)
+}
+
+#origin-h2 {
+    margin-bottom: 2rem;
+}
+
+.history-link a:hover {
+    color: black;
+}
