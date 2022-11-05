@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #f4f4f4;
+}
+
+.curiosidad_acdc {
+    background-color: rgb(235, 227, 227);
+    width: 96%;
+    height: 100%;
+    margin: 2%;
+    padding: 0.1rem;
+}
+
+.curiosidad_acdc h1 {
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    margin-top: 1rem;
+}
+
+.albuns_acdc a,
+.albuns_aerosmith a,
+.albuns_angra a,
+.albuns_black_sabbath a,
+.albuns_bon_jovi a {
+    background: none;
+}
+
+.botoes button:hover,
+.botoes_3 button:hover,
+.botoes_4 button:hover {
+    background-color: #28A5D9;
+}
+
+.fotoac img {
+    width: 18rem;
+    height: 15rem;
+    margin-top: 3%;
+    border-radius: 1.91rem;
+}
+
+.fotoac img:hover {
+    transform: scale(1.02);
+}
+
+.corpo_curiosidade_acdc {
+    margin-top: 1.2rem;
+    padding: 0.9rem;
+    width: 23%;
+    float: left;
+}
+
+.botao_acdc button {
+    margin-left: 1%;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    border-radius: 14px;
+}
+
+.botao_acdc p {
+    font-size: 16px;
+}
+
+.botao_acdc button:hover {
+    background-color: #28A5D9;
+}
+
+.albuns_acdc button {
+    border-top: 1px solid #000000;
+    background: #325d7a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1f282e), to(#325d7a));
+    background: -webkit-linear-gradient(top, #1f282e, #325d7a);
+    background: -moz-linear-gradient(top, #1f282e, #325d7a);
+    background: -ms-linear-gradient(top, #1f282e, #325d7a);
+    background: -o-linear-gradient(top, #1f282e, #325d7a);
+    padding: 8.5px 17px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 13px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.albuns_acdc button:hover {
+    border-top-color: #324857;
+    background: #324857;
+    color: #ccc;
+}
+
+.albuns_acdc button:active {
+    border-top-color: #415461;
+    background: #415461;
+}
