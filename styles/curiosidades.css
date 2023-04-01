@@ -1271,3 +1271,11 @@
             background: #415461;
         }
     }
+    
+    @media screen and (min-width: 247px) and (max-width:374px) {
+        .curiosidad_acdc h1 {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 1.7rem;
+        }
+    }
