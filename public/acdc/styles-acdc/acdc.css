@@ -15,6 +15,90 @@ img {
     padding: .1rem;
 }
 
+.content-section_album a {
+    margin: .1rem;
+    height: 275px;
+    width: 275px;
+    border-radius: .8rem;
+}
+
+#hv {
+    background-image: url("../../../img/acdc_australiano.jpg");
+}
+
+#tnt {
+    background-image: url("../../../img/acdc_tnt.jpg");
+}
+
+#hvi {
+    background-image: url("../../../img/acdc/acdc_high_voltage.jpg");
+}
+
+#ddddc {
+    background-image: url("../../../img/ddddc.jpg");
+}
+
+#ltbr {
+    background-image: url("../../../img/acdc_Let_There_Be_Rock.jpg");
+}
+
+#powerage {
+    background-image: url("../../../img/acdc_Powerage.jpg");
+}
+
+#hth {
+    background-image: url("../../../img/acdc_Highway_to_Hell.jpg");
+}
+
+#bib {
+    background-image: url("../../../img/acdc_black_in_black.jpg");
+}
+
+#ftatr {
+    background-image: url("../../../img/acdc_For_Those_About_to_Rock.jpg");
+}
+
+#fots {
+    background-image: url("../../../img/acdc_Flick_of_the_Switch.jpg");
+}
+
+#fotw {
+    background-image: url("../../../img/acdc_Fly_on_the_Wall.jpg");
+}
+
+#wmw {
+    background-image: url("../../../img/acdc_who_made_who.jpg");
+}
+
+#buyv {
+    background-image: url("../../../img/acdc_Blow_Up_Your_Video.jpg");
+}
+
+#tre {
+    background-image: url("../../../img/acdc_The_Razors_Edge.jpg");
+}
+
+#ballbreaker {
+    background-image: url("../../../img/acdc_Ballbreaker.jpg");
+}
+
+#sul {
+    background-image: url("../../../img/acdc_Stiff_Upper_Lip.jpg");
+}
+
+#bi {
+    background-image: url("../../../img/acdc_Black_Ice.jpg");
+}
+
+#rob {
+    background-image: url("../../../img/acdc_Rock_or_Bust.jpg");
+    border-radius: 1rem;
+}
+
+#pu {
+    background-image: url("../../../img/powerup.jpg");
+}
+
 .container {
     background-color: rgb(235, 227, 227);
     padding: .1rem;
