@@ -168,3 +168,216 @@ footer img {
     text-align: center;
     margin-top: -1rem;
 }
+
+#store img {
+    height: 15rem;
+}
+
+.cds div {
+    display: inline-block;
+}
+
+#product {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Novo Tegomin', serif;
+    text-align: center;
+}
+
+.marketplace-store {
+    margin-top: 1rem;
+}
+
+#store section {
+    display: inline-block;
+    width: 24%;
+    margin: .1rem;
+}
+
+#store h3 {
+    text-align: center;
+    background-color: rgb(31, 34, 33);
+    color: #fff;
+}
+
+@media screen and (min-width: 247px) and (max-width:374px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 7rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: .3rem;
+    }
+    .botao_acdc button {
+        width: 4rem;
+        height: 2rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:420px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 2rem;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 7rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: .3rem;
+    }
+    .botao_acdc button {
+        width: 4rem;
+        height: 2rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        margin-top: .5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width:767px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 4rem;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 5rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: .3rem;
+    }
+    .botao_acdc button {
+        width: 4rem;
+        height: 2rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 4rem;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 5rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .2rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .botao_acdc button {
+        width: 5rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 3rem;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 5rem;
+        font-size: .8rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .botao_acdc button {
+        width: 7rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
